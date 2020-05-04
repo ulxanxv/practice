@@ -7,7 +7,7 @@ namespace Task_1 {
         public Main() {
             InitializeComponent();
 
-            // Обработчики на изменение текста внутри полей для ввода X и У
+            // Обработчик на изменение текста внутри поля для бинарного числа
             inputBinary.TextChanged += InputBinary_TextChanged;
         }
 

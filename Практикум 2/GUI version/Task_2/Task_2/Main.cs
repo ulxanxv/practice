@@ -6,7 +6,7 @@ namespace Task_1 {
         public Main() {
             InitializeComponent();
 
-            // Обработчики на изменение текста внутри полей для ввода X и У
+            // Обработчики на изменение текста внутри полей для ввода Дней и Даты
             days.TextChanged += Input_TextChanged;
             date.TextChanged += Input_TextChanged;
         }

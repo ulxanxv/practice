@@ -6,7 +6,7 @@ namespace Task_1 {
         public Main() {
             InitializeComponent();
 
-            // Обработчики на изменение текста внутри полей для ввода X и У
+            // Обработчик события на кнопку
             outButton.Click += OutButton_Click;
         }
 

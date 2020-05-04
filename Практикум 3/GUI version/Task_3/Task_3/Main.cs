@@ -6,6 +6,7 @@ namespace Task_1 {
         public Main() {
             InitializeComponent();
 
+            // Обработчик события по нажатию кнопки
             outButton.Click += OutButton_Click;
         }
 

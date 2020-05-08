@@ -10,7 +10,21 @@ namespace Task_1 {
             resultButton.Click += OutButton_Click;
 
             // Всплывающая подсказка о том, как вводить массив
-            toolTip1.SetToolTip(this.inputArray, "Пример ввода массива — \n1 4\n3 2 \n1 2");
+            toolTip1.SetToolTip(this.inputArray, "Пример ввода массива — 1 4 2 5 6 3 2");
+        }
+
+        static int lastMinimal(int[] array) {
+            int minimalNumber = array[0];
+
+            for (int i = 0; i < array.Length; ++i) {
+                if (array[i] < minimalNumber) { minimalNumber = array[i]; }
+            }
+
+            for (int i = array.Length - 1; i > -1; --i) {
+                if (array[i] == minimalNumber) { return i; }
+            }
+
+            return 0;
         }
 
         private void OutButton_Click(object sender, EventArgs e) {
@@ -18,18 +32,14 @@ namespace Task_1 {
         }
 
         private void result() {
-            int[,] array;
+            int[] array;
 
             array = getArray();
 
             if (array != null) {
                 try {
-                    int a = int.Parse(inputA.Text),
-                        b = int.Parse(inputB.Text);
-
+                    outputResult.Text = "Позиция последнего минимального — " + lastMinimal(array);
                     print(array);
-
-                    outputResult.Text = "Чисел — " + countNumbers(array, a , b);
                 } catch (Exception) {
                     outputResult.Text = "Неверный диапазон значений!";
                     return;
@@ -37,44 +47,20 @@ namespace Task_1 {
             }
         }
 
-        private int countNumbers(int[,] array, int a, int b) {
-            int count = 0;
-
-            for (int z = 0; z < array.GetLength(0); ++z) {
-                for (int y = 0; y < array.GetLength(1); ++y) {
-                    if (a <= array[z, y] && array[z, y] <= b) {
-                        ++count;
-                    }
-                }
-            }
-
-            return count;
-        }
-
-        private void print(int[,] array) {
-            for (int z = 0; z < array.GetLength(0); ++z) {
-                for (int y = 0; y < array.GetLength(1); ++y) {
-                    outputResult.Text += array[z, y] + " ";
-                }
-                outputResult.Text += "\n";
+        private void print(int[] array) {
+            outputArray.Text = "Ваш массив:\n";
+            for (int z = 0; z < array.Length; ++z) {
+                outputArray.Text += array[z] + " ";
             }
         }
 
-        private int[,] getArray() {
-            string[] infoArray  = inputArray.Text.Trim().Split('\n');
+        private int[] getArray() {
+            string[] infoArray  = inputArray.Text.Trim().Split(' ');
+            int[] array         = new int[inputArray.Text.Trim().Split(' ').Length];
 
-            int rows            = inputArray.Text.Trim().Split('\n').Length;
-            int columns         = inputArray.Text.Trim().Split('\n')[0].Split(' ').Length;
-
-            int[,] array        = new int[rows, columns];
-
-            string[] row;
             try {
-                for (int z = 0; z < array.GetLength(0); ++z) {
-                    row = infoArray[z].Split(' ');
-                    for (int y = 0; y < array.GetLength(1); ++y) {
-                        array[z, y] = int.Parse(row[y]);
-                    }
+                for (int z = 0; z < array.Length; ++z) {
+                    array[z] = int.Parse(infoArray[z]);
                 }
             } catch (Exception) {
                 outputResult.Text = "Неверные данные!";

@@ -35,10 +35,6 @@
             this.outputResult = new System.Windows.Forms.TextBox();
             this.labelOutputResult = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.inputA = new System.Windows.Forms.TextBox();
-            this.inputB = new System.Windows.Forms.TextBox();
-            this.labelA = new System.Windows.Forms.Label();
-            this.labelB = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -94,7 +90,7 @@
             // outputArray
             // 
             this.outputArray.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.outputArray.Location = new System.Drawing.Point(227, 130);
+            this.outputArray.Location = new System.Drawing.Point(227, 60);
             this.outputArray.Name = "outputArray";
             this.outputArray.ReadOnly = true;
             this.outputArray.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
@@ -104,63 +100,32 @@
             // 
             // resultButton
             // 
-            this.resultButton.Location = new System.Drawing.Point(227, 232);
+            this.resultButton.Location = new System.Drawing.Point(227, 162);
             this.resultButton.Name = "resultButton";
             this.resultButton.Size = new System.Drawing.Size(318, 30);
             this.resultButton.TabIndex = 4;
-            this.resultButton.Text = "Подсчитать!";
+            this.resultButton.Text = "Найти!";
             this.resultButton.UseVisualStyleBackColor = true;
             // 
             // outputResult
             // 
             this.outputResult.Enabled = false;
+            this.outputResult.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.outputResult.Location = new System.Drawing.Point(227, 323);
             this.outputResult.Name = "outputResult";
             this.outputResult.ReadOnly = true;
-            this.outputResult.Size = new System.Drawing.Size(318, 26);
+            this.outputResult.Size = new System.Drawing.Size(318, 23);
             this.outputResult.TabIndex = 5;
             this.outputResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelOutputResult
             // 
             this.labelOutputResult.AutoSize = true;
-            this.labelOutputResult.Location = new System.Drawing.Point(223, 301);
+            this.labelOutputResult.Location = new System.Drawing.Point(227, 301);
             this.labelOutputResult.Name = "labelOutputResult";
             this.labelOutputResult.Size = new System.Drawing.Size(54, 19);
             this.labelOutputResult.TabIndex = 6;
             this.labelOutputResult.Text = "ВЫВОД";
-            // 
-            // inputA
-            // 
-            this.inputA.Location = new System.Drawing.Point(228, 57);
-            this.inputA.Name = "inputA";
-            this.inputA.Size = new System.Drawing.Size(100, 26);
-            this.inputA.TabIndex = 7;
-            // 
-            // inputB
-            // 
-            this.inputB.Location = new System.Drawing.Point(445, 57);
-            this.inputB.Name = "inputB";
-            this.inputB.Size = new System.Drawing.Size(100, 26);
-            this.inputB.TabIndex = 8;
-            // 
-            // labelA
-            // 
-            this.labelA.AutoSize = true;
-            this.labelA.Location = new System.Drawing.Point(334, 60);
-            this.labelA.Name = "labelA";
-            this.labelA.Size = new System.Drawing.Size(36, 19);
-            this.labelA.TabIndex = 9;
-            this.labelA.Text = "— A";
-            // 
-            // labelB
-            // 
-            this.labelB.AutoSize = true;
-            this.labelB.Location = new System.Drawing.Point(403, 60);
-            this.labelB.Name = "labelB";
-            this.labelB.Size = new System.Drawing.Size(36, 19);
-            this.labelB.TabIndex = 10;
-            this.labelB.Text = "B —";
             // 
             // Main
             // 
@@ -168,10 +133,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(558, 361);
-            this.Controls.Add(this.labelB);
-            this.Controls.Add(this.labelA);
-            this.Controls.Add(this.inputB);
-            this.Controls.Add(this.inputA);
             this.Controls.Add(this.labelOutputResult);
             this.Controls.Add(this.outputResult);
             this.Controls.Add(this.resultButton);
@@ -208,10 +169,6 @@
         private System.Windows.Forms.TextBox outputResult;
         private System.Windows.Forms.Label labelOutputResult;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.TextBox inputA;
-        private System.Windows.Forms.TextBox inputB;
-        private System.Windows.Forms.Label labelA;
-        private System.Windows.Forms.Label labelB;
     }
 }
 

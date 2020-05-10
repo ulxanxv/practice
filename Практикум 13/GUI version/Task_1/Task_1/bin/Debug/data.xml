@@ -1,0 +1,96 @@
+<software>
+
+
+    <freewares>
+
+        <freeware>
+            <name>Chrome</name>
+            <producer>Google</producer>
+        </freeware>
+
+        <freeware>
+            <name>Opera</name>
+            <producer>Opera Software</producer>
+        </freeware>
+
+        <freeware>
+            <name>Paint</name>
+            <producer>Microsoft</producer>
+        </freeware>
+
+        <freeware>
+            <name>Some Name</name>
+            <producer>Some Producer</producer>
+        </freeware>
+
+    </freewares>
+
+
+    <sharewares>
+
+        <shareware>
+            <activationDate>02.02.2020</activationDate>
+            <howDays>365</howDays>
+            <name>IntelliJ IDEA</name>
+            <producer>JetBrains</producer>
+            <installDate>01.01.2020</installDate>
+            <freeTerm>30</freeTerm>
+        </shareware>
+
+        <shareware>
+            <activationDate>06.02.2019</activationDate>
+            <howDays>3650</howDays>
+            <name>Avast!</name>
+            <producer>AVAST Software</producer>
+            <installDate>06.02.2019</installDate>
+            <freeTerm>30</freeTerm>
+        </shareware>
+
+        <shareware>
+            <activationDate>01.01.2005</activationDate>
+            <howDays>365</howDays>
+            <name>CCleaner</name>
+            <producer>Piriform</producer>
+            <installDate>01.01.2005</installDate>
+            <freeTerm>14</freeTerm>
+        </shareware>
+
+    </sharewares>
+
+
+    <commercialsoftwares>
+
+        <commercialsoftware>
+            <activationDate>04.04.2020</activationDate>
+            <howDays>60</howDays>
+            <name>Avast! Professional</name>
+            <producer>AVAST Software</producer>
+            <installDate>04.04.2020</installDate>
+            <price>600,0</price>
+            <useTerm>10</useTerm>
+        </commercialsoftware>
+
+        <commercialsoftware>
+            <activationDate>04.12.2020</activationDate>
+            <howDays>365</howDays>
+            <name>IntelliJ IDEA Ultimate</name>
+            <producer>JetBrains</producer>
+            <installDate>04.12.2020</installDate>
+            <price>1200,0</price>
+            <useTerm>65</useTerm>
+        </commercialsoftware>
+
+        <commercialsoftware>
+            <activationDate>10.05.2020</activationDate>
+            <howDays>28</howDays>
+            <name>CCleaner Pro</name>
+            <producer>Piriform</producer>
+            <installDate>09.05.2020</installDate>
+            <price>40,0</price>
+            <useTerm>256</useTerm>
+        </commercialsoftware>
+
+    </commercialsoftwares>
+
+
+</software>

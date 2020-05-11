@@ -1,18 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <software>
-
-
     <freewares>
-
         <freeware>
             <name>Chrome</name>
             <producer>Google</producer>
         </freeware>
-
         <freeware>
             <name>Opera</name>
             <producer>Opera Software</producer>
         </freeware>
-
         <freeware>
             <name>Paint</name>
             <producer>Microsoft</producer>
@@ -22,9 +19,7 @@
             <name>Some Name</name>
             <producer>Some Producer</producer>
         </freeware>
-
     </freewares>
-
 
     <sharewares>
 
@@ -36,7 +31,6 @@
             <installDate>01.01.2020</installDate>
             <freeTerm>30</freeTerm>
         </shareware>
-
         <shareware>
             <activationDate>06.02.2019</activationDate>
             <howDays>3650</howDays>
@@ -45,7 +39,6 @@
             <installDate>06.02.2019</installDate>
             <freeTerm>30</freeTerm>
         </shareware>
-
         <shareware>
             <activationDate>01.01.2005</activationDate>
             <howDays>365</howDays>
@@ -57,9 +50,7 @@
 
     </sharewares>
 
-
     <commercialsoftwares>
-
         <commercialsoftware>
             <activationDate>04.04.2020</activationDate>
             <howDays>60</howDays>
@@ -69,7 +60,6 @@
             <price>600,0</price>
             <useTerm>10</useTerm>
         </commercialsoftware>
-
         <commercialsoftware>
             <activationDate>04.12.2020</activationDate>
             <howDays>365</howDays>
@@ -79,7 +69,6 @@
             <price>1200,0</price>
             <useTerm>65</useTerm>
         </commercialsoftware>
-
         <commercialsoftware>
             <activationDate>10.05.2020</activationDate>
             <howDays>28</howDays>
@@ -89,8 +78,6 @@
             <price>40,0</price>
             <useTerm>256</useTerm>
         </commercialsoftware>
-
     </commercialsoftwares>
-
 
 </software>

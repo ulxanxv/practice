@@ -33,11 +33,13 @@
             this.exitButton = new System.Windows.Forms.ToolStripMenuItem();
             this.infoPanelSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.autorName = new System.Windows.Forms.ToolStripLabel();
-            this.infoPanelSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.infoPanelSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.autorGroup = new System.Windows.Forms.ToolStripLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.bindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hostelDataSet = new HostelDataSet();
+            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.infoPanelSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.stratificationButton = new System.Windows.Forms.ToolStripMenuItem();
             this.infoStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource)).BeginInit();
@@ -50,8 +52,10 @@
             this.infoStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileMenu,
             this.infoPanelSeparator1,
-            this.autorName,
+            this.toolStripDropDownButton1,
             this.infoPanelSeparator2,
+            this.autorName,
+            this.infoPanelSeparator3,
             this.autorGroup});
             this.infoStrip.Location = new System.Drawing.Point(0, 0);
             this.infoStrip.Name = "infoStrip";
@@ -66,7 +70,6 @@
             this.studentsButton,
             this.roomsButton,
             this.privilegesButton,
-            this.stratificationButton,
             this.exitButton});
             this.fileMenu.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fileMenu.Name = "fileMenu";
@@ -108,10 +111,10 @@
             this.autorName.Size = new System.Drawing.Size(91, 22);
             this.autorName.Text = "Ульянов А.В.";
             // 
-            // infoPanelSeparator2
+            // infoPanelSeparator3
             // 
-            this.infoPanelSeparator2.Name = "infoPanelSeparator2";
-            this.infoPanelSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.infoPanelSeparator3.Name = "infoPanelSeparator3";
+            this.infoPanelSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // autorGroup
             // 
@@ -139,6 +142,21 @@
             // 
             this.hostelDataSet.DataSetName = "HostelDataSet";
             this.hostelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // toolStripDropDownButton1
+            // 
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stratificationButton});
+            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(76, 22);
+            this.toolStripDropDownButton1.Text = "Просмотр";
+            // 
+            // infoPanelSeparator2
+            // 
+            this.infoPanelSeparator2.Name = "infoPanelSeparator2";
+            this.infoPanelSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // stratificationButton
             // 
@@ -177,7 +195,7 @@
         private System.Windows.Forms.ToolStripMenuItem exitButton;
         private System.Windows.Forms.ToolStripSeparator infoPanelSeparator1;
         private System.Windows.Forms.ToolStripLabel autorName;
-        private System.Windows.Forms.ToolStripSeparator infoPanelSeparator2;
+        private System.Windows.Forms.ToolStripSeparator infoPanelSeparator3;
         private System.Windows.Forms.ToolStripLabel autorGroup;
         private System.Windows.Forms.ToolStripMenuItem studentsButton;
         private System.Windows.Forms.ToolStripMenuItem roomsButton;
@@ -185,6 +203,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource bindingSource;
         private HostelDataSet hostelDataSet;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
         private System.Windows.Forms.ToolStripMenuItem stratificationButton;
+        private System.Windows.Forms.ToolStripSeparator infoPanelSeparator2;
     }
 }

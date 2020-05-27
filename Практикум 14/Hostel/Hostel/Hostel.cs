@@ -18,6 +18,11 @@ namespace Hostel {
             studentsButton.Click += StudentsButton_Click;
             roomsButton.Click += RoomsButton_Click;
             privilegesButton.Click += PrivilegesButton_Click;
+            stratificationButton.Click += StratificationButton_Click;
+        }
+
+        private void StratificationButton_Click(object sender, EventArgs e) {
+            new Stratification().ShowDialog();
         }
 
         private void PrivilegesButton_Click(object sender, EventArgs e) {

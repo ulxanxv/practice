@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.bindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hostelDataSet = new HostelDataSet();
+            this.stratificationButton = new System.Windows.Forms.ToolStripMenuItem();
             this.infoStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hostelDataSet)).BeginInit();
@@ -65,6 +66,7 @@
             this.studentsButton,
             this.roomsButton,
             this.privilegesButton,
+            this.stratificationButton,
             this.exitButton});
             this.fileMenu.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fileMenu.Name = "fileMenu";
@@ -74,25 +76,25 @@
             // studentsButton
             // 
             this.studentsButton.Name = "studentsButton";
-            this.studentsButton.Size = new System.Drawing.Size(144, 22);
+            this.studentsButton.Size = new System.Drawing.Size(180, 22);
             this.studentsButton.Text = "Студенты";
             // 
             // roomsButton
             // 
             this.roomsButton.Name = "roomsButton";
-            this.roomsButton.Size = new System.Drawing.Size(144, 22);
+            this.roomsButton.Size = new System.Drawing.Size(180, 22);
             this.roomsButton.Text = "Комнаты";
             // 
             // privilegesButton
             // 
             this.privilegesButton.Name = "privilegesButton";
-            this.privilegesButton.Size = new System.Drawing.Size(144, 22);
+            this.privilegesButton.Size = new System.Drawing.Size(180, 22);
             this.privilegesButton.Text = "Привилегии";
             // 
             // exitButton
             // 
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(144, 22);
+            this.exitButton.Size = new System.Drawing.Size(180, 22);
             this.exitButton.Text = "Выход";
             // 
             // infoPanelSeparator1
@@ -138,6 +140,12 @@
             this.hostelDataSet.DataSetName = "HostelDataSet";
             this.hostelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // stratificationButton
+            // 
+            this.stratificationButton.Name = "stratificationButton";
+            this.stratificationButton.Size = new System.Drawing.Size(180, 22);
+            this.stratificationButton.Text = "Расселение";
+            // 
             // Hostel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -177,5 +185,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource bindingSource;
         private HostelDataSet hostelDataSet;
+        private System.Windows.Forms.ToolStripMenuItem stratificationButton;
     }
 }

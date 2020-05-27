@@ -72,6 +72,12 @@
     <Compile Include="Rooms.Designer.cs">
       <DependentUpon>Rooms.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stratification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stratification.Designer.cs">
+      <DependentUpon>Stratification.cs</DependentUpon>
+    </Compile>
     <Compile Include="Students.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="Rooms.resx">
       <DependentUpon>Rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stratification.resx">
+      <DependentUpon>Stratification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Students.resx">
       <DependentUpon>Students.cs</DependentUpon>

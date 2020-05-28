@@ -187,6 +187,7 @@
             // 
             // response
             // 
+            this.response.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.response.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.response.Location = new System.Drawing.Point(12, 225);
             this.response.Name = "response";

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{740213D8-85F7-400F-ACE2-C84890E3BC76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Components</RootNamespace>
+    <AssemblyName>Components</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassOne.cs" />
+    <Compile Include="ClassTwo.cs" />
+    <Compile Include="Eighteenth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eighteenth.Designer.cs">
+      <DependentUpon>Eighteenth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eighth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eighth.Designer.cs">
+      <DependentUpon>Eighth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eleventh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleventh.Designer.cs">
+      <DependentUpon>Eleventh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fifth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fifth.Designer.cs">
+      <DependentUpon>Fifth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="First.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="First.Designer.cs">
+      <DependentUpon>First.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fourteenth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fourteenth.Designer.cs">
+      <DependentUpon>Fourteenth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fourth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fourth.Designer.cs">
+      <DependentUpon>Fourth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISomeInterface.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ninth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ninth.Designer.cs">
+      <DependentUpon>Ninth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Second.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Second.Designer.cs">
+      <DependentUpon>Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seventeenth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seventeenth.Designer.cs">
+      <DependentUpon>Seventeenth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seventh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seventh.Designer.cs">
+      <DependentUpon>Seventh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sixth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sixth.Designer.cs">
+      <DependentUpon>Sixth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tenth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenth.Designer.cs">
+      <DependentUpon>Tenth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Third.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Third.Designer.cs">
+      <DependentUpon>Third.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thirteenth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thirteenth.Designer.cs">
+      <DependentUpon>Thirteenth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thirtieth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thirtieth.Designer.cs">
+      <DependentUpon>Thirtieth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThirtyFirst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirtyFirst.Designer.cs">
+      <DependentUpon>ThirtyFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThirtySecond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirtySecond.Designer.cs">
+      <DependentUpon>ThirtySecond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Twelfth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Twelfth.Designer.cs">
+      <DependentUpon>Twelfth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentyEight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentyEight.Designer.cs">
+      <DependentUpon>TwentyEight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentyFirst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentyFirst.Designer.cs">
+      <DependentUpon>TwentyFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentyFive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentyFive.Designer.cs">
+      <DependentUpon>TwentyFive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentyFour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentyFour.Designer.cs">
+      <DependentUpon>TwentyFour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentyNinth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentyNinth.Designer.cs">
+      <DependentUpon>TwentyNinth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentySeventh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentySeventh.Designer.cs">
+      <DependentUpon>TwentySeventh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentySixth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentySixth.Designer.cs">
+      <DependentUpon>TwentySixth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentySixth_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentySixth_2.Designer.cs">
+      <DependentUpon>TwentySixth_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentyThird.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentyThird.Designer.cs">
+      <DependentUpon>TwentyThird.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwentyTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwentyTwo.Designer.cs">
+      <DependentUpon>TwentyTwo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Eighteenth.resx">
+      <DependentUpon>Eighteenth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eighth.resx">
+      <DependentUpon>Eighth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleventh.resx">
+      <DependentUpon>Eleventh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fifth.resx">
+      <DependentUpon>Fifth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="First.resx">
+      <DependentUpon>First.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fourteenth.resx">
+      <DependentUpon>Fourteenth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fourth.resx">
+      <DependentUpon>Fourth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ninth.resx">
+      <DependentUpon>Ninth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Second.resx">
+      <DependentUpon>Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seventeenth.resx">
+      <DependentUpon>Seventeenth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seventh.resx">
+      <DependentUpon>Seventh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sixth.resx">
+      <DependentUpon>Sixth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenth.resx">
+      <DependentUpon>Tenth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Third.resx">
+      <DependentUpon>Third.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thirteenth.resx">
+      <DependentUpon>Thirteenth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thirtieth.resx">
+      <DependentUpon>Thirtieth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThirtyFirst.resx">
+      <DependentUpon>ThirtyFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThirtySecond.resx">
+      <DependentUpon>ThirtySecond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Twelfth.resx">
+      <DependentUpon>Twelfth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentyEight.resx">
+      <DependentUpon>TwentyEight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentyFirst.resx">
+      <DependentUpon>TwentyFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentyFive.resx">
+      <DependentUpon>TwentyFive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentyFour.resx">
+      <DependentUpon>TwentyFour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentyNinth.resx">
+      <DependentUpon>TwentyNinth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentySeventh.resx">
+      <DependentUpon>TwentySeventh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentySixth.resx">
+      <DependentUpon>TwentySixth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentySixth_2.resx">
+      <DependentUpon>TwentySixth_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentyThird.resx">
+      <DependentUpon>TwentyThird.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwentyTwo.resx">
+      <DependentUpon>TwentyTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

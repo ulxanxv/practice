@@ -1,0 +1,10 @@
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\bin\Debug\Cramer Method.exe.config
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\bin\Debug\Cramer Method.exe
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\bin\Debug\Cramer Method.pdb
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\obj\Debug\Cramer Method.csprojAssemblyReference.cache
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\obj\Debug\Cramer_Method.Properties.Resources.resources
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\obj\Debug\Cramer Method.csproj.GenerateResource.cache
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\obj\Debug\Cramer Method.csproj.CoreCompileInputs.cache
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\obj\Debug\Cramer Method.exe
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\obj\Debug\Cramer Method.pdb
+C:\Users\Артём\Desktop\Cramer Method\Cramer Method\obj\Debug\Cramer_Method.Cramer.resources

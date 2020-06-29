@@ -47,7 +47,7 @@ namespace Cramer_Method {
         }
 
         /// <summary>
-        /// Заполнений матриц
+        /// Заполнение матриц
         /// </summary>
         private void startCount() {
             int         dimension = Convert.ToInt32(amountEquation.Value);
@@ -122,7 +122,7 @@ namespace Cramer_Method {
         }
 
         /// <summary>
-        /// Проверка на зполнение всех полей
+        /// Проверка на заполнение всех полей
         /// </summary>
         private bool checkFields() {
             int dimension = Convert.ToInt32(amountEquation.Value);

@@ -128,7 +128,7 @@ namespace Cramer_Method {
             int dimension = Convert.ToInt32(amountEquation.Value);
 
             for (int i = 0; i < dimension; ++i) {
-                for (int j = 0; j < dimension; ++j) {
+                for (int j = 0; j <= dimension; ++j) {
                     if (linearSystem.Rows[i].Cells[j].Value.ToString() == "") {
                         return false;
                     }
